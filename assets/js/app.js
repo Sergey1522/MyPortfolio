@@ -27,7 +27,7 @@ window.addEventListener("scroll", () => {
     navbar.classList.remove("stick");
   }
   const scrollTop = document.querySelector("#scroll");
-  const _Y = window.scrollY;
+  const _Y = window.pageYOffset;
   // console.log(window.scrollY);
   if (_Y > 1000) {
     // console.log(_Y);

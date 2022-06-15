@@ -392,12 +392,35 @@ html {
   height: 260px;
   background-color: #ccc;
   margin: 0 auto;
+  box-shadow: 3px 3px 9px #ccc;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.portfolio_item:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s ease-in-out;
 }
 #_1 {
   background-image: url(../img/bootstrap_KinoMon.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.download {
+  display: inline-block;
+  background: #2f937b;
+  padding: 10px 14px;
+  font-size: 12px;
+  color: #fff;
+  margin-top: 215px;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+.download:hover {
+  color: #fff;
+  background-color: #333;
+  transition: 0.5s;
 }
 #_2 {
   background-image: url(../img/ExpressShop.jpg);
@@ -413,6 +436,12 @@ html {
 }
 #_4 {
   background-image: url(../img/Eat\ as\ you\ want+mob.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#_5 {
+  background-image: url(../img/todos.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -644,7 +673,7 @@ form#contact {
     display: grid;
     justify-content: center;
     grid-template-columns: 330px 330px;
-    gap: 10px;
+    gap: 20px;
     margin-top: 50px;
   }
   .about_title {
@@ -662,7 +691,7 @@ form#contact {
     display: grid;
     justify-content: center;
     grid-template-columns: 330px 330px;
-    gap: 10px;
+    gap: 20px;
     margin-top: 50px;
   }
   .about_title {
@@ -681,7 +710,7 @@ form#contact {
     display: grid;
     justify-content: center;
     grid-template-columns: 330px 330px;
-    gap: 10px;
+    gap: 20px;
     margin-top: 50px;
   }
   .about_title {
@@ -703,7 +732,7 @@ form#contact {
     display: grid;
     justify-content: center;
     grid-template-columns: 590px;
-    gap: 10px;
+    gap: 20px;
     margin-top: 50px;
   }
   .portfolio_item {
@@ -711,6 +740,9 @@ form#contact {
     height: 460px;
     background-color: #ccc;
     margin: 0 auto;
+  }
+  .download {
+    margin-top: 400px;
   }
   .about_title {
     width: 350px;
@@ -731,7 +763,7 @@ form#contact {
     display: grid;
     justify-content: center;
     grid-template-columns: 560px;
-    gap: 10px;
+    gap: 20px;
     margin-top: 50px;
   }
   .portfolio_item {
@@ -762,7 +794,7 @@ form#contact {
     display: grid;
     justify-content: center;
     grid-template-columns: 420px;
-    gap: 10px;
+    gap: 20px;
     margin-top: 50px;
   }
   .portfolio_item {
