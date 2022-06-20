@@ -267,6 +267,12 @@ html {
     top: -700%;
     height: 100px;
   }
+  .navbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100px;
+  }
   /* .nav_burger {
     position: absolute;
   } */
@@ -759,6 +765,19 @@ form#contact {
   .container {
     max-width: 500px;
   }
+  .nav_burger {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-right: 10px;
+    float: right;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 3px;
+    cursor: pointer;
+    left: 90%;
+  }
   .portfoli {
     display: grid;
     justify-content: center;
@@ -787,6 +806,22 @@ form#contact {
   .container {
     max-width: 400px;
   }
+  .download {
+    margin-top: 200px;
+  }
+  .nav_burger {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-right: 10px;
+    float: right;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 3px;
+    cursor: pointer;
+    left: 90%;
+  }
   .logo {
     font-size: 8px;
   }
@@ -798,7 +833,7 @@ form#contact {
     margin-top: 50px;
   }
   .portfolio_item {
-    width: 420px;
+    width: 350px;
     height: 260px;
     background-color: #ccc;
     margin: 0 auto;
@@ -825,7 +860,7 @@ form#contact {
   }
 }
 
-@media (max-width: 981px) {
+/* @media (max-width: 981px) {
   .logo {
     margin-right: 82%;
   }
@@ -835,4 +870,4 @@ form#contact {
   .logo {
     margin-right: 82%;
   }
-}
+} */
