@@ -228,6 +228,7 @@ html {
   letter-spacing: 1px;
   font-weight: 600;
   color: #fff;
+  transition: 0.5s;
 }
 .btn_header_contact:hover {
   color: #2f937b;
@@ -247,6 +248,7 @@ html {
   color: #ffffff;
   border: 2px solid #fff;
   margin-left: 5px;
+  transition: 0.5s;
 }
 .btn_header_portfolio:hover {
   background: #2f937b;
@@ -448,6 +450,18 @@ html {
 }
 #_5 {
   background-image: url(../img/todos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#_6 {
+  background-image: url(../img/React-Cart.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#_7 {
+  background-image: url(../img/Kelvin-Portfolio-mob_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
