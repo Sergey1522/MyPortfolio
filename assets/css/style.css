@@ -11,7 +11,7 @@ html {
   padding: 20px;
 }
 .stick {
-  animation: fixedMenu 0.8s forwards;
+  /* animation: fixedMenu 0.8s forwards; */
   position: fixed;
   top: 0;
   width: 100%;
@@ -193,6 +193,7 @@ html {
 }
 .logo {
   font-family: "Playball", sans-serif;
+  padding: 15px;
 }
 
 .nav_menu {
@@ -262,12 +263,18 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgb(245, 246, 246);
-    width: 62%;
+    background: rgb(0, 0, 0);
+    width: 100%;
     /* box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.37); */
     transition: all 0.4s ease;
     top: -700%;
-    height: 100px;
+    /* height: 100px; */
+  }
+  .nav_item {
+    display: flex;
+    /* padding-top: 40px; */
+    flex-direction: column;
+    align-items: center;
   }
   .navbar {
     display: flex;
@@ -301,7 +308,8 @@ html {
     border-radius: 40px;
     padding: 3px;
     cursor: pointer;
-    left: 90%;
+    left: 80%;
+    z-index: 100;
   }
 
   .nav_burger span,
@@ -352,31 +360,7 @@ html {
   } */
 }
 /* ========================================================================= */
-/* .tf-service {
-  margin-top: 150px;
-}
 
-.block_info {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  gap: 35px;
-}
-.info {
-  display: table;
-  width: 250px;
-  height: 160px;
-  text-align: center;
-}
-.icon_info {
-  display: table-cell;
-  vertical-align: middle;
-  padding-right: 25px;
-}
-.icon_info i {
-  font-size: 32px;
-} */
 /* ========================================================================= */
 
 .tf-portfolio {
@@ -744,6 +728,21 @@ form#contact {
     font-size: 14px;
   }
 }
+@media (max-width: 880px) {
+  .nav_burger {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-right: 10px;
+    float: right;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 3px;
+    cursor: pointer;
+    left: 78%;
+  }
+}
 @media (max-width: 780px) {
   .container {
     max-width: 590px;
@@ -790,7 +789,7 @@ form#contact {
     border-radius: 40px;
     padding: 3px;
     cursor: pointer;
-    left: 90%;
+    left: 75%;
   }
   .portfoli {
     display: grid;
@@ -834,7 +833,7 @@ form#contact {
     border-radius: 40px;
     padding: 3px;
     cursor: pointer;
-    left: 90%;
+    left: 75%;
   }
   .logo {
     font-size: 8px;
@@ -871,6 +870,52 @@ form#contact {
   }
   .contact_me_title {
     font-size: 10px;
+  }
+}
+@media (max-width: 440px) {
+  .nav_burger {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-right: 10px;
+    float: right;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 3px;
+    cursor: pointer;
+    left: 70%;
+  }
+}
+@media (max-width: 360px) {
+  .nav_burger {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-right: 10px;
+    float: right;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 3px;
+    cursor: pointer;
+    left: 70%;
+  }
+  .about_title {
+    width: 300px;
+    height: 230px;
+    margin-left: 8%;
+    font-size: 8px;
+  }
+  .about_title p {
+    color: #222222;
+    font-size: 10px;
+  }
+  .portfolio_item {
+    width: 330px;
+    height: 260px;
+    background-color: #ccc;
+    margin: 0 auto;
   }
 }
 
